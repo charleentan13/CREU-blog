@@ -5,18 +5,17 @@ permalink:           pretty
 relative_permalinks: false
 
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:               Pollution Analysis
+tagline:             'A CREU 2017 Blog'
+description:         ''
 url:                 https://charleentan13.github.io/CREU-blog-2017/
 baseurl:             /CREU-blog/
 paginate:            5
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Charleen Tan
+  email:             ctan@hmc.edu
 
 # Custom vars
 version:             1.0.0
