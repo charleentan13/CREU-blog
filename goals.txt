@@ -1,0 +1,12 @@
+Over the past summer, I have been working with finding the correlation between the organic values trends and decomposing each signal using the technique, NMF. NMF can decompose one signal into a number of components, and by inspecting mass spectra one can identify the composition of each components. However, the results from NMF are not meaningful at this time. The results do not make sense chemically. 
+
+So, the goal of this semester is 
+1. to refine the NMF results using different solvers/ techniques.
+2. detecting peaks using sliding windows technique, when reading a excel sheet, the code can easily identify when do the peaks occur or how many of them occur in one day
+	- export a report in a more visual way to convey messages
+	- can be useful for chemists
+	- can extract more accurate data from the dataset
+
+At the end, I have decided to work on the peaks detection. As shown in the graphs below, the correlation is not convincing and the graphs are scattered. During the summer, the peak difference was calculated by taking the absolute difference(highest - lowest). However, there are a large amount of noise contribute to the signal. As we can see, there is a general shape of the peaks, but the graph is not smooth enough to define a local minima or a local maxima. 
+
+![plot]({{ site.url }}/assets/post9_15_pic.png)
