@@ -1,0 +1,4 @@
+peak_detection algorithm from https://stackoverflow.com/questions/22583391/peak-signal-detection-in-realtime-timeseries-data/43512887#43512887 works with their tested dataset. After that, I shouble be able to use on my dataset. At first, my plan is to work with a single day dataset(7/7/2015). Attached is the ouput that I have reproduced using our data set. 
+
+![plot]({{ site.url }}/assets/20150707_5_5_0.png)
+From the graph, we can see that there is a smoothed curve of the orginal curve in the middle. Also, the second graph shows the signal of each peak. Although it does not tell the strength of each signal, we can still see that there is a peak. So, for next week, my plan is to use the smoothed out curve and run peak detection on them to see the time that the peak takes to occur in the afternoon. 
