@@ -2,7 +2,7 @@ I was having problem to let the algorithm detect peaks consistently without rely
 
 I think to some extent; peak detection can be seen as edge/blob detection on one dimension. The peaks in a set of data can be seen as blobs (or a set of two edges) on one dimension. In addition, it seems like blob detection algorithms have been studied extensively by the research community. So I think if I apply the existing methods in blob detection to one dimensional data, it is possible to detect peaks in a reasonably well way without relying on me changing parameters much. 
 
-One such method is the Laplacian of Gaussian method. The original method (which is applied on 2D images) involves first smoothing the image with a Gaussian smoothing filter to reduce effects of noises, and then use convolution to calculate the Laplacians at different pixels (for a detailed description of how the it works on 2D images, see http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6004783) . The same method can be reduced to 1D case, which corresponds to the peak detection problem I’m solving right now.
+One such method is the Laplacian of Gaussian method. The original method (which is applied on 2D images) involves first smoothing the image with a Gaussian smoothing filter to reduce effects of noises, and then use convolution to calculate the Laplacians at different pixels (for a detailed description of how the it works on 2D images, see http://ieeexplore.ieee.org/document/4767838/#full-text-section) . The same method can be reduced to 1D case, which corresponds to the peak detection problem I’m solving right now.
 
 In 1D, Laplacian can be calculated as
 ![plot]({{ site.url }}/assets/1DLaplace.png)
