@@ -8,7 +8,7 @@ relative_permalinks: false
 title:               Pollution Analysis
 tagline:             'A CREU 2017 Blog'
 description:         ''
-url:                 https://charleentan13.github.io/CREU-blog/
+url:                 https://hmc-cs-ctan.github.io/CREU-blog/
 baseurl:             /CREU-blog/
 paginate:            5
 
